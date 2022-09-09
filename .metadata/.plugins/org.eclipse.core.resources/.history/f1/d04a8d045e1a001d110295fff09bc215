@@ -1,0 +1,25 @@
+
+public class Rectangle {
+	private int length;
+	private int width;
+	
+	//Variables 
+	public Rectangle(int length,int width)
+	{
+		this.length=length;
+		this.width=width;
+	}
+	// Method or behavior
+	
+	public String toString()
+	{
+		return String.format("length- %d, width- %d",length,width);
+	}
+	
+	public int Parameter()
+	{
+		int a=2*(length+width);
+		return a;
+	}
+
+}

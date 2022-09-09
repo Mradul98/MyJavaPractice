@@ -1,0 +1,44 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Prectice_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//copy one array list to another array list
+		
+		ArrayList<String> arraylist1=new ArrayList<>();
+		
+		arraylist1.add("A");
+		arraylist1.add("B");
+		arraylist1.add("C");
+		arraylist1.add("D");
+		arraylist1.add("E");
+		arraylist1.add("F");
+		
+		
+		ArrayList<Integer> arraylist2=new ArrayList<>();
+		
+		arraylist2.add(1);
+		arraylist2.add(2);
+		arraylist2.add(3);
+		arraylist2.add(4);
+		arraylist2.add(5);
+		arraylist2.add(6);
+		
+		System.out.println("Array lists before copying :");
+		
+		System.out.println(arraylist1);
+		System.out.println(arraylist2);
+		
+		
+		
+		
+
+	}
+
+}

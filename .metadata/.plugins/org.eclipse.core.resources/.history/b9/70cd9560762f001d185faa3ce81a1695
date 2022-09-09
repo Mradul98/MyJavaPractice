@@ -1,0 +1,23 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Prectice_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> list=List.of("Mradul","Niket","Priyanshu","Himanshu");
+		
+		ArrayList<String> arraylist1=new ArrayList<>(list);
+		
+		ArrayList<String> arraylist2=new ArrayList<>();
+		
+		Collections.copy(arraylist1, arraylist2);
+		System.out.println(arraylist2);
+
+	}
+
+}

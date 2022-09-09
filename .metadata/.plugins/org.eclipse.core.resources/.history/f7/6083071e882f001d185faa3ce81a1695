@@ -1,0 +1,22 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class IncreaseSizeOfArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> arraylist=new ArrayList<String>(4);
+		arraylist.add("java");
+		arraylist.add("Python");
+		arraylist.add("C");
+		arraylist.add("C++");
+		arraylist.add("JavaScript");
+		
+		System.out.println(arraylist);
+		System.out.println(arraylist.size());
+
+	}
+
+}

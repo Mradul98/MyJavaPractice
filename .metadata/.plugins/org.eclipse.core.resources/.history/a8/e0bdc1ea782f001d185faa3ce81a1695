@@ -1,0 +1,32 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Practice3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Integer> numbers=new ArrayList<Integer>();
+		
+		numbers.add(465283);
+		numbers.add(46528);
+		numbers.add(4652);
+		numbers.add(465);
+		numbers.add(46);
+		numbers.add(4);
+		
+		System.out.println("Before shortiung");
+		
+		System.out.println(numbers);
+		
+		Collections.sort(numbers);
+		
+		System.out.println("After sorting");
+		
+		System.out.println(numbers);
+
+	}
+
+}

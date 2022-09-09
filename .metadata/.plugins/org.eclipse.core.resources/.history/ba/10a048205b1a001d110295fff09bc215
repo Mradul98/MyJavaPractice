@@ -1,0 +1,17 @@
+
+public class FanRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Fan fan=new Fan("Usha",12,"red",100);
+		fan.Switchoff();
+		System.out.println(fan);
+		
+		
+	
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package Collection;
+
+import java.util.Map;
+
+public class Map_Practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Map<String,Integer> map=Map.of("A",5,"B",3,"C",1);
+		
+		System.out.println(map);
+		
+
+	}
+
+}

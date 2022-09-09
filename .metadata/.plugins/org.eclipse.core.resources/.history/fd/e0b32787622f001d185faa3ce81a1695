@@ -1,0 +1,22 @@
+package Collection;
+
+import java.util.List;
+import java.util.PriorityQueue;
+
+public class Queue_Interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> animals=List.of("Cat","Dog","Monkey","Donkey","Fox","Goat");
+		
+		PriorityQueue<String> queue=new PriorityQueue<>(animals);
+		
+		System.out.println(queue);
+		
+		queue.offer("Cow");
+		System.out.println(queue);
+
+	}
+
+}

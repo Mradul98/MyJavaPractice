@@ -1,0 +1,27 @@
+
+public class Fan {
+	
+	private String make;
+	private int redius;
+	private String  color;
+	private int price;
+	
+	private boolean Ison;
+	private int speed;
+	
+	
+	
+	public Fan(String make,int redius,String color,int price)
+	{
+		this.make=make;
+		this.redius=redius;
+		this.color=color;
+		this.price=price;
+	}
+	public String toString()
+
+	{
+		return String.format("make- %s, redius- %d, color- %s, price- %d ",make,redius,color,price);
+	}
+
+}
